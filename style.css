@@ -183,7 +183,7 @@ span{
     position: relative;
 }
 .text-animation span::before{
-    content: "React Develpoer";
+    content: "React Developer";
     color: var(--main-color);
     animation: words 20s infinite;
 }
