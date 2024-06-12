@@ -91,12 +91,12 @@ span{
 .logo span{
     color: var(--main-color);
 }
-.home-content h3{
+.home-context h3{
     margin-bottom: 2rem;
     margin-top: 1rem;
     font-size: 3.5rem;
 }
-.home-content h1{
+.home-context h1{
     font-size: 7rem;
     font-weight: 700;
     margin-top: 1.5rem;
@@ -119,11 +119,22 @@ span{
                 0 0 75px var(--main-color),
                 0 0 100px var(--main-color);
 }
-.home-content p{
+.home-context p{
     font-size: 1.5rem;
     font-weight: 500;
     line-height: 1.8;
     max-width: 1000px;
+}
+.home-line .logo{
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--text-color);
+    cursor: pointer;
+    transition: 0.3 ease;
+    
+}
+.home-line .logo:hover{
+    text-shadow: 0 0 25px var(--main-color);
 }
 .social-icons a{
     display: inline-flex;
@@ -205,11 +216,11 @@ span{
 @keyframes words{
     0%,
     20%{
-        content: "Backend Developer";
+        content: "React Developer";
     }
     21%,
     40%{
-        content: "React Developer";
+        content: "Backend Developer";
     }
     41%,
     60%{
@@ -394,7 +405,7 @@ span{
     line-height: 2;
     margin: auto;
     text-align: justify;
-    /* overflow-y: scroll; */
+    overflow-y: scroll;
 }
 .Projects{
     background: var(--second-bg-color);
