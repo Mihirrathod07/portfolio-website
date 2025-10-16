@@ -216,15 +216,15 @@ span{
 @keyframes words{
     0%,
     20%{
-        content: "React Developer";
+        content: "Cyber Security Enthusiast";
     }
     21%,
     40%{
-        content: "Backend Developer";
+        content: "SOC Analyst";
     }
     41%,
     60%{
-        content: "Software Tester";
+        content: "VAPT Intern";
     }
 }
 @keyframes typing{
